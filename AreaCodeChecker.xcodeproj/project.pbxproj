@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3676B17F2401EA7100889513 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676B17E2401EA7100889513 /* Helper.swift */; };
+		36A8F39C240201ED00EECDFD /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8F39B240201ED00EECDFD /* EventMonitor.swift */; };
+		36EECEBE2401CCD300A35697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EECEBD2401CCD300A35697 /* AppDelegate.swift */; };
+		36EECEC32401CCD300A35697 /* AreaCodeChecker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36EECEC12401CCD300A35697 /* AreaCodeChecker.xcdatamodeld */; };
+		36EECEC52401CCD500A35697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EECEC42401CCD500A35697 /* Assets.xcassets */; };
+		36EECEC82401CCD500A35697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EECEC62401CCD500A35697 /* Main.storyboard */; };
+		36EECED12401D51900A35697 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EECED02401D51900A35697 /* MenuVC.swift */; };
+		36EECED32401E4E700A35697 /* AreaCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EECED22401E4E700A35697 /* AreaCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3676B17E2401EA7100889513 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		36A8F39B240201ED00EECDFD /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		36EECEBA2401CCD300A35697 /* AreaCodeChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaCodeChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EECEBD2401CCD300A35697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36EECEC22401CCD300A35697 /* AreaCodeChecker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AreaCodeChecker.xcdatamodel; sourceTree = "<group>"; };
+		36EECEC42401CCD500A35697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36EECEC72401CCD500A35697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36EECEC92401CCD500A35697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EECECA2401CCD500A35697 /* AreaCodeChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AreaCodeChecker.entitlements; sourceTree = "<group>"; };
+		36EECED02401D51900A35697 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		36EECED22401E4E700A35697 /* AreaCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36EECEB72401CCD300A35697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36EECEB12401CCD300A35697 = {
+			isa = PBXGroup;
+			children = (
+				36EECEBC2401CCD300A35697 /* AreaCodeChecker */,
+				36EECEBB2401CCD300A35697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36EECEBB2401CCD300A35697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36EECEBA2401CCD300A35697 /* AreaCodeChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36EECEBC2401CCD300A35697 /* AreaCodeChecker */ = {
+			isa = PBXGroup;
+			children = (
+				36EECEBD2401CCD300A35697 /* AppDelegate.swift */,
+				36EECED02401D51900A35697 /* MenuVC.swift */,
+				36A8F39B240201ED00EECDFD /* EventMonitor.swift */,
+				3676B17E2401EA7100889513 /* Helper.swift */,
+				36EECED22401E4E700A35697 /* AreaCode.swift */,
+				36EECEC42401CCD500A35697 /* Assets.xcassets */,
+				36EECEC62401CCD500A35697 /* Main.storyboard */,
+				36EECEC92401CCD500A35697 /* Info.plist */,
+				36EECECA2401CCD500A35697 /* AreaCodeChecker.entitlements */,
+				36EECEC12401CCD300A35697 /* AreaCodeChecker.xcdatamodeld */,
+			);
+			path = AreaCodeChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36EECEB92401CCD300A35697 /* AreaCodeChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EECECD2401CCD500A35697 /* Build configuration list for PBXNativeTarget "AreaCodeChecker" */;
+			buildPhases = (
+				36EECEB62401CCD300A35697 /* Sources */,
+				36EECEB72401CCD300A35697 /* Frameworks */,
+				36EECEB82401CCD300A35697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AreaCodeChecker;
+			productName = AreaCodeChecker;
+			productReference = 36EECEBA2401CCD300A35697 /* AreaCodeChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36EECEB22401CCD300A35697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tayler Moosa";
+				TargetAttributes = {
+					36EECEB92401CCD300A35697 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 36EECEB52401CCD300A35697 /* Build configuration list for PBXProject "AreaCodeChecker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36EECEB12401CCD300A35697;
+			productRefGroup = 36EECEBB2401CCD300A35697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36EECEB92401CCD300A35697 /* AreaCodeChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36EECEB82401CCD300A35697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EECEC52401CCD500A35697 /* Assets.xcassets in Resources */,
+				36EECEC82401CCD500A35697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EECEB62401CCD300A35697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EECED12401D51900A35697 /* MenuVC.swift in Sources */,
+				36EECEC32401CCD300A35697 /* AreaCodeChecker.xcdatamodeld in Sources */,
+				36EECEBE2401CCD300A35697 /* AppDelegate.swift in Sources */,
+				36A8F39C240201ED00EECDFD /* EventMonitor.swift in Sources */,
+				36EECED32401E4E700A35697 /* AreaCode.swift in Sources */,
+				3676B17F2401EA7100889513 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36EECEC62401CCD500A35697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36EECEC72401CCD500A35697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36EECECB2401CCD500A35697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36EECECC2401CCD500A35697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		36EECECE2401CCD500A35697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AreaCodeChecker/AreaCodeChecker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BY6XXMF6G6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AreaCodeChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seraphoxsolutions.AreaCodeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36EECECF2401CCD500A35697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AreaCodeChecker/AreaCodeChecker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BY6XXMF6G6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AreaCodeChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seraphoxsolutions.AreaCodeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EECEB52401CCD300A35697 /* Build configuration list for PBXProject "AreaCodeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EECECB2401CCD500A35697 /* Debug */,
+				36EECECC2401CCD500A35697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EECECD2401CCD500A35697 /* Build configuration list for PBXNativeTarget "AreaCodeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EECECE2401CCD500A35697 /* Debug */,
+				36EECECF2401CCD500A35697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36EECEC12401CCD300A35697 /* AreaCodeChecker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36EECEC22401CCD300A35697 /* AreaCodeChecker.xcdatamodel */,
+			);
+			currentVersion = 36EECEC22401CCD300A35697 /* AreaCodeChecker.xcdatamodel */;
+			path = AreaCodeChecker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36EECEB22401CCD300A35697 /* Project object */;
+}
