@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -752,20 +752,6 @@
                                     </connections>
                                 </buttonCell>
                             </button>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Sn6-7J-ioP">
-                                <rect key="frame" x="325" y="197" width="25" height="26"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="YXv-bi-JTN"/>
-                                    <constraint firstAttribute="width" constant="25" id="dfQ-nQ-K56"/>
-                                </constraints>
-                                <buttonCell key="cell" type="roundTextured" title="?" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="i0l-45-e2h">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="infoButtonClick:" target="XfG-lQ-9wD" id="UTN-JZ-mdk"/>
-                                </connections>
-                            </button>
                             <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUB-gY-z49">
                                 <rect key="frame" x="55" y="40" width="240" height="143"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Njf-Y9-cPX">
@@ -825,7 +811,6 @@
                             <constraint firstItem="3Cm-re-zru" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="30" id="92a-JJ-XuW"/>
                             <constraint firstItem="ry1-GH-Lso" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="9Hr-4o-Z46"/>
                             <constraint firstAttribute="bottom" secondItem="Arl-xq-qmo" secondAttribute="bottom" id="B8d-DO-9dx"/>
-                            <constraint firstAttribute="trailing" secondItem="Sn6-7J-ioP" secondAttribute="trailing" id="BXx-di-J6K"/>
                             <constraint firstAttribute="bottom" secondItem="pSB-Sh-X3K" secondAttribute="bottom" constant="75" id="Bvd-R8-4pe"/>
                             <constraint firstItem="eUB-gY-z49" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="55" id="F23-wH-WLT"/>
                             <constraint firstItem="pSB-Sh-X3K" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="30" id="HEe-6O-U7f"/>
@@ -837,7 +822,6 @@
                             <constraint firstAttribute="trailing" secondItem="3Cm-re-zru" secondAttribute="trailing" constant="30" id="bPx-gu-gNe"/>
                             <constraint firstItem="vdP-R2-GnM" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="30" id="daq-TO-F9Z"/>
                             <constraint firstAttribute="trailing" secondItem="eUB-gY-z49" secondAttribute="trailing" constant="55" id="fLH-sI-Q4X"/>
-                            <constraint firstItem="Sn6-7J-ioP" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="tpA-qD-9CT"/>
                             <constraint firstAttribute="bottom" secondItem="eUB-gY-z49" secondAttribute="bottom" constant="40" id="vMC-HJ-fAo"/>
                         </constraints>
                     </view>

@@ -17,23 +17,7 @@ class MenuVC: NSViewController {
     override func viewDidLoad() {
         infoView.isHidden = true
         super.viewDidLoad()
-        // Do view setup here.
-        
-        print(getTime())
-        
-        
     }
-    
-
-    
-
-    
-    
-    
-    
-    
-    
-    
 
     @IBAction func clearAction(_ sender: Any) {
         areaCodeOutlet.stringValue = ""
@@ -46,15 +30,11 @@ class MenuVC: NSViewController {
             timezoneOutlet.stringValue = "Invalid"
         }
         guard let areaCodeInt = Int(areaCodeOutlet.stringValue) else { return }
-        guard let result = binaryTwo(array: areaCodeData, key: areaCodeInt, range: 0..<areaCodeData.count) else { return }
+        guard let result = binarySearch(array: areaCodeData, key: areaCodeInt, range: 0..<areaCodeData.count) else { return }
         timezoneOutlet.stringValue = result[1]
         stateOutlet.stringValue = result[2]
     }
     
-    @IBAction func infoButtonClick(_ sender: Any) {
-        infoView.isHidden.toggle()
-
-    }
     @IBAction func closeButtonClick(_ sender: Any) {
         NSApplication.shared.terminate(self)
     }
@@ -70,11 +50,4 @@ extension MenuVC {
     }
     return viewcontroller
   }
-}
-
-extension MenuVC : NSTextFieldDelegate {
-    
-    
-    
- 
 }
